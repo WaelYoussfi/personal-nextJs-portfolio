@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { BiUserCircle } from "react-icons/bi";
 
 import {
   Container,
@@ -25,8 +25,8 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <BiUserCircle size="3rem" />
+          <Span>Resume</Span>
         </a>
       </Link>
     </Div1>
@@ -44,6 +44,11 @@ const Header = () => (
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>

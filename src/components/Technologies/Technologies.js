@@ -1,12 +1,60 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiCode, DiFirebase, DiPhotoshop, DiReact } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
-  <div>
-    Technologies
-  </div>
+const Technologies = () => (
+  <Section id="tech">
+    <SectionDivider />
+    <br />
+    <SectionTitle>Technologies</SectionTitle>
+    <SectionText>
+      During my journey, I've tried and worked with a wide range of technologies
+      in web, mobile and desktop development world. From Back-end to Front-end
+      and Design.
+    </SectionText>
+    <List>
+      <ListItem>
+        <DiReact size="5rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>React.js Next.js Angular</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiCode size="5rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>Node.js SpringBoot Firebase</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="5rem" />
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>MySQL PostgreSQL Mongo</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiPhotoshop size="5rem" />
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>Figma Photoshop AdobeXd</ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+  </Section>
 );
 
 export default Technologies;
