@@ -12,6 +12,8 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+
 
   }
   body {
@@ -30,6 +32,9 @@ const GlobalStyles = createGlobalStyle`
   }
   li{
     list-style: none;
+  }
+  .text_field{
+    color: white !important;
   }
 
 `;
