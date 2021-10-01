@@ -12,8 +12,10 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 50px;
-
+    scroll-padding-top: 70px;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      scroll-padding-top: 200px;
+    }
 
   }
   body {
