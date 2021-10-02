@@ -1,15 +1,41 @@
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import Link from "next/link";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {
+    CompanyContainer,
+    FooterWrapper,
+    LinkColumn,
+    LinkItem,
+    LinkList,
+    LinkTitle,
+    Slogan,
+    SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
-  return (
-    <div>
-      Footer
-    </div>
-  );
+    return (
+        <FooterWrapper>
+            <LinkList>
+                <LinkColumn>
+                    <LinkTitle>Copyright</LinkTitle>
+                    <Link href="/#">
+                        <LinkItem>&copy; Wael Youssfi</LinkItem>
+                    </Link>
+                </LinkColumn>
+                <LinkColumn>
+                    <LinkTitle>Call</LinkTitle>
+                    <LinkItem href="tel:+21694272790">
+                        +216 94 27 27 90
+                    </LinkItem>
+                </LinkColumn>
+            </LinkList>
+            <SocialIconsContainer>
+                <CompanyContainer>
+                    <Slogan>Quality comes first!</Slogan>
+                </CompanyContainer>
+            </SocialIconsContainer>
+        </FooterWrapper>
+    );
 };
 
 export default Footer;

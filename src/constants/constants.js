@@ -5,18 +5,18 @@ export const projects = [
             "After I learned Angular, this was one of my first projects using Angular and firebase. It helps you select/add/delete a recipe you want to a list and automatically extract the necessary ingredients in order to add them to the shopping list.",
         image: "/images/1.png",
         tags: ["Angular", "Firebase", "Java", "Jboss Fuse"],
-        source: "https://github.com/WaelYoussfi/shopping",
-        visit: "https://google.com",
+        visit: "https://github.com/WaelYoussfi/shopping",
+
         id: 0,
     },
     {
-        title: "E-Commerce",
+        title: "X-Ray Segmentation & Brain Tumor Detector",
         description:
-            "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-        image: "/images/2.png",
+            "This is the Front-end part of a Machine Learning project. The user inputs the X-ray images and app analyzes them via different ML Models and Segmentations to give some feedback about the possibility of having a brain tumor",
+        image: "/images/2.jpg",
         tags: ["React", "NextJs", "Material UI"],
-        source: "https://github.com/WaelYoussfi/bt-dashboard",
-        visit: "https://google.com",
+        visit: "https://github.com/WaelYoussfi/bt-dashboard",
+
         id: 1,
     },
     {
@@ -25,18 +25,18 @@ export const projects = [
             "This is a video chat app created with react, webRTC and firebase as a signaling server.",
         image: "/images/3.jpg",
         tags: ["React", "WebRTC", "Firebase"],
-        source: "https://github.com/WaelYoussfi/WebRTC-chat-room",
-        visit: "https://google.com",
+        visit: "https://github.com/WaelYoussfi/WebRTC-chat-room",
+
         id: 2,
     },
     {
         title: "This portfolio",
         description:
             "There's not much to say about this project. It is what you are seeing right now.",
-        image: "/images/4.jpg",
+        image: "/images/4.png",
         tags: ["React", "NextJs"],
-        source: "https://github.com/WaelYoussfi/personal-nextJs-portfolio",
-        visit: "https://google.com",
+        visit: "https://github.com/WaelYoussfi/personal-nextJs-portfolio",
+
         id: 3,
     },
 ];

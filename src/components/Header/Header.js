@@ -1,11 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import {
-    AiFillFacebook,
-    AiFillGithub,
-    AiFillInstagram,
-    AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
 
 import {
@@ -58,13 +53,19 @@ const Header = () => (
             </li>
         </Div2>
         <Div3>
-            <SocialIcons href="https://github.com/WaelYoussfi">
+            <SocialIcons href="https://github.com/WaelYoussfi" target="_blank">
                 <AiFillGithub size="3rem"></AiFillGithub>
             </SocialIcons>
-            <SocialIcons href="https://www.linkedin.com/in/wyoussfi/">
+            <SocialIcons
+                href="https://www.linkedin.com/in/wyoussfi/"
+                target="_blank"
+            >
                 <AiFillLinkedin size="3rem"></AiFillLinkedin>
             </SocialIcons>
-            <SocialIcons href="https://www.facebook.com/profile.php?id=100010481555834">
+            <SocialIcons
+                href="https://www.facebook.com/profile.php?id=100010481555834"
+                target="_blank"
+            >
                 <AiFillFacebook size="3rem"></AiFillFacebook>
             </SocialIcons>
         </Div3>

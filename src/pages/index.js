@@ -1,4 +1,4 @@
-import Acomplishments from "../components/Acomplishments/Acomplishments";
+// import Acomplishments from "../components/Acomplishments/Acomplishments";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
 import Contact from "../components/Contact/Contact";
 import Hero from "../components/Hero/Hero";
