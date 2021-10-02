@@ -10,7 +10,7 @@ import InputText from "./InputStyle";
 
 import emailjs from "emailjs-com";
 import Ids from "./emailJS";
-import { useState, Fragment } from "react";
+import { useState } from "react";
 
 const Contact = () => {
     const [open, setOpen] = useState(false);
