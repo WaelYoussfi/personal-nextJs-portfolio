@@ -16,19 +16,19 @@ import {
 const Header = () => (
     <Container>
         <Div1>
-            <Link href="/">
-                <a
-                    style={{
-                        display: "flex",
-                        alignItems: "center",
-                        color: "white",
-                        marginBottom: "20px",
-                    }}
-                >
-                    <BiUserCircle size="3rem" />
-                    <Span>Resume</Span>
-                </a>
-            </Link>
+            <a
+                href="https://drive.google.com/drive/folders/1lwr6g69fYGFI9P-qarEHv3d0cb4ofbmn?usp=sharing"
+                target="_blank"
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: "white",
+                    marginBottom: "20px",
+                }}
+            >
+                <BiUserCircle size="3rem" />
+                <Span>Resume</Span>
+            </a>
         </Div1>
         <Div2>
             <li>
