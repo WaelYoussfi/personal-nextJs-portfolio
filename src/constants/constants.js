@@ -10,6 +10,16 @@ export const projects = [
         id: 0,
     },
     {
+        title: "Recipes Book Shop",
+        description:
+            "After I learned Angular, this was one of my first projects using Angular and firebase. It helps you select/add/delete a recipe you want to a list and automatically extract the necessary ingredients in order to add them to the shopping list.",
+        image: "/images/1.png",
+        tags: ["Angular", "Firebase", "Java", "Jboss Fuse"],
+        visit: "https://github.com/WaelYoussfi/shopping",
+
+        id: 1,
+    },
+    {
         title: "WebRTC Chatroom",
         description:
             "This is a video chat app created with react, webRTC and firebase as a signaling server.",
@@ -17,7 +27,7 @@ export const projects = [
         tags: ["React", "WebRTC", "Firebase"],
         visit: "https://github.com/WaelYoussfi/WebRTC-chat-room",
 
-        id: 1,
+        id: 2,
     },
     {
         title: "This portfolio",
@@ -26,16 +36,6 @@ export const projects = [
         image: "/images/4.png",
         tags: ["React", "NextJs"],
         visit: "https://github.com/WaelYoussfi/personal-nextJs-portfolio",
-
-        id: 2,
-    },
-    {
-        title: "Recipes Book Shop",
-        description:
-            "After I learned Angular, this was one of my first projects using Angular and firebase. It helps you select/add/delete a recipe you want to a list and automatically extract the necessary ingredients in order to add them to the shopping list.",
-        image: "/images/1.png",
-        tags: ["Angular", "Firebase", "Java", "Jboss Fuse"],
-        visit: "https://github.com/WaelYoussfi/shopping",
 
         id: 3,
     },

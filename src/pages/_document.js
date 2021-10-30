@@ -35,6 +35,14 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
                         rel="stylesheet"
                     />
+
+                    <meta property="og:title" content="Some of my projects " />
+                    <meta property="og:image" content="/images/preview.png" />
+                    <meta
+                        property="og:description"
+                        content="This is my personal portfolio"
+                    />
+                    <meta property="og:url" content="//wael.vercel.app" />
                 </Head>
                 <body>
                     <Main />
