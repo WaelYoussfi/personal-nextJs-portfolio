@@ -1,15 +1,5 @@
 export const projects = [
     {
-        title: "Recipes Book Shop",
-        description:
-            "After I learned Angular, this was one of my first projects using Angular and firebase. It helps you select/add/delete a recipe you want to a list and automatically extract the necessary ingredients in order to add them to the shopping list.",
-        image: "/images/1.png",
-        tags: ["Angular", "Firebase", "Java", "Jboss Fuse"],
-        visit: "https://github.com/WaelYoussfi/shopping",
-
-        id: 0,
-    },
-    {
         title: "X-Ray Segmentation & Brain Tumor Detector",
         description:
             "This is the Front-end part of a Machine Learning project. The user inputs the X-ray images and app analyzes them via different ML Models and Segmentations to give some feedback about the possibility of having a brain tumor",
@@ -18,6 +8,16 @@ export const projects = [
         visit: "https://github.com/WaelYoussfi/bt-dashboard",
 
         id: 1,
+    },
+    {
+        title: "Recipes Book Shop",
+        description:
+            "After I learned Angular, this was one of my first projects using Angular and firebase. It helps you select/add/delete a recipe you want to a list and automatically extract the necessary ingredients in order to add them to the shopping list.",
+        image: "/images/1.png",
+        tags: ["Angular", "Firebase", "Java", "Jboss Fuse"],
+        visit: "https://github.com/WaelYoussfi/shopping",
+
+        id: 0,
     },
     {
         title: "WebRTC Chatroom",
