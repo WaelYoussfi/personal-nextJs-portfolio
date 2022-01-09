@@ -23,11 +23,14 @@ const Header = () => (
                     display: "flex",
                     alignItems: "center",
                     color: "white",
+                    marginTop: "4px",
                     marginBottom: "20px",
                 }}
             >
                 <BiUserCircle size="3rem" />
-                <Span>Resume</Span>
+                <Span>
+                    <i> Get Resume/CV</i>
+                </Span>
             </a>
         </Div1>
         <Div2>
