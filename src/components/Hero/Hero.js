@@ -17,9 +17,8 @@ const Hero = (props) => (
             </SectionTitle>
             <SectionText>
                 Welcome to my Portfolio! My name is Wael and I'm a software
-                engineering student. I love web development and I thrive in the
-                ever evolving, complex yet attractive web and mobile
-                development universe.
+                engineer. I love web development and I thrive in the ever
+                evolving, complex yet attractive JavaScript universe.
             </SectionText>
             <Button
                 target="_blank"

@@ -53,20 +53,19 @@ export const projects = [
 
 export const TimeLineData = [
     {
-        year: 2016,
-        text: "Finished highschool with honors and started my software engineering degree",
-    },
-    { year: 2018, text: "Received the Thomas Jefferson scholarship" },
-    {
-        year: 2019,
-        text: "Finished my exchange year in the U.S. with honors and received a web development certificate",
+        year: "12/2018",
+        text: "Started my exchange year in the United States as well as my internship in the university's IT department. I took web development courses and worked on developing a dashboard to manage student records using JavaScript and SQL",
     },
     {
-        year: 2020,
-        text: "Shared my projects with the world. You can find them on my Github",
+        year: "10/2021",
+        text: "Started working as freelance frontend developer. I designed dashboards and implemented mock-ups using React, Next.js, Material UI, TailwindCSS and Figma",
     },
     {
-        year: 2021,
-        text: "I gained some weight and more dev knowledge thanks to quarantine",
+        year: "05/2022",
+        text: "Started my graduation internship and my engineering thesis at Tokiwa Software GmbH. I worked on designing and implementing a platform-independant File I/O API for Fuzion, a new programming language that Tokiwa is currently developing",
+    },
+    {
+        year: "01/2023",
+        text: "I graduated and joined Synctive GmbH as a fullstack JavaScript developer. I implement end to end functionalities from the database all the way to the ui. I also implement rigorous tests and automated pipelines to deliver the features smoothly and free of bugs",
     },
 ];

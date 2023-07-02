@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
 
 import {
@@ -17,7 +17,7 @@ const Header = () => (
     <Container>
         <Div1>
             <a
-                href="https://drive.google.com/drive/folders/1lwr6g69fYGFI9P-qarEHv3d0cb4ofbmn?usp=sharing"
+                href="https://drive.google.com/file/d/165f9pC4PPX_x88DXZu9mOmqEBPy86oWo/view?usp=sharing"
                 target="_blank"
                 style={{
                     display: "flex",
@@ -64,12 +64,6 @@ const Header = () => (
                 target="_blank"
             >
                 <AiFillLinkedin size="3rem"></AiFillLinkedin>
-            </SocialIcons>
-            <SocialIcons
-                href="https://www.facebook.com/profile.php?id=100010481555834"
-                target="_blank"
-            >
-                <AiFillFacebook size="3rem"></AiFillFacebook>
             </SocialIcons>
         </Div3>
     </Container>
