@@ -4,27 +4,27 @@ export const projects = [
         description:
             "This is the Front-end part of a Machine Learning project. The user inputs the X-ray images and app analyzes them via different ML Models and Segmentations to give some feedback about the possibility of having a brain tumor",
         image: "/images/2.jpg",
-        tags: ["React", "NextJs", "Material UI"],
+        tags: ["React.js", "Next.js", "Material UI", "JavaScript"],
         visit: "https://github.com/WaelYoussfi/bt-dashboard",
 
         id: 0,
     },
     {
-        title: "Recipes Book Shop",
+        title: "Yawakit e-commerce",
         description:
-            "After I learned Angular, this was one of my first projects using Angular and firebase. It helps you select/add/delete a recipe you want to a list and automatically extract the necessary ingredients in order to add them to the shopping list.",
-        image: "/images/1.png",
-        tags: ["Angular", "Firebase", "Java", "Jboss Fuse"],
+            "Yawakit is an e-commerce website. I developed the frontend using Next.js and TailwindCSS. The UI is fully responsive and also supports multiple languages including Arabic so the website also fully supports RTL",
+        image: "/images/1.jpg",
+        tags: ["React.js", "Next.js", "TailwindCSS", "JavaScript"],
         visit: "https://github.com/WaelYoussfi/shopping",
 
         id: 1,
     },
     {
-        title: "WebRTC Chatroom",
+        title: "Tokiwa Software GmbH",
         description:
-            "This is a video chat app created with react, webRTC and firebase as a signaling server.",
+            "This is the website of Tokiwa Software GmbH. It is a company responsible for developing Fuzion, a new programming language. The website is fully responsive and optimised for search engines",
         image: "/images/3.jpg",
-        tags: ["React", "WebRTC", "Firebase"],
+        tags: ["React.js", "Next.js", "TailwindCSS", "TypeScript"],
         visit: "https://github.com/WaelYoussfi/WebRTC-chat-room",
 
         id: 2,
@@ -32,9 +32,9 @@ export const projects = [
     {
         title: "This portfolio",
         description:
-            "There's not much to say about this project. It is what you are seeing right now.",
+            "There's not much to say about this project. It is what you are seeing right now",
         image: "/images/5.png",
-        tags: ["React", "NextJs"],
+        tags: ["React.js", "Next.js", "Styled Components", "JavaScript"],
         visit: "https://github.com/WaelYoussfi/personal-nextJs-portfolio",
 
         id: 3,
@@ -42,9 +42,9 @@ export const projects = [
     {
         title: "We Talk",
         description:
-            "This is a mobile discord like app, it enables the user to create an account, create conversations and participate to other conversations. This app is created using React-Native, Firebase and React-native elements for design.",
+            "This is a mobile discord like app, it enables the user to create an account, create conversations and participate to other conversations. This app is created using React-Native, Firebase and React-native elements for design",
         image: "/images/4.jpg",
-        tags: ["React-Native", "Firebase"],
+        tags: ["React-Native", "JavaScript", "Firebase"],
         visit: "https://github.com/WaelYoussfi/we-talk",
 
         id: 4,
