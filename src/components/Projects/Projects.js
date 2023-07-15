@@ -41,11 +41,13 @@ const Projects = () => (
                             ))}
                         </TagList>
                     </div>
-                    <UtilityList>
-                        <ExternalLinks href={project.visit}>
-                            Source Code
-                        </ExternalLinks>
-                    </UtilityList>
+                    {project.visit && (
+                        <UtilityList>
+                            <ExternalLinks href={project.visit}>
+                                {project.live ? "Visit Live" : "Source Code"}
+                            </ExternalLinks>
+                        </UtilityList>
+                    )}
                 </BlogCard>
             ))}
         </GridContainer>
